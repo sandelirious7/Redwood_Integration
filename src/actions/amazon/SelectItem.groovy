@@ -8,5 +8,6 @@ class SelectItem{
         new Click().run("ID":"//*[@id=\"result_${params."Item Index"}\"]//a","ID Type":"XPath")
         ArrayList<String> tabs = new ArrayList<String> (Browser.Driver.getWindowHandles())
         Browser.Driver.switchTo().window(tabs.get(tabs.size()-1))
+        ArrayList<String> tabs1 = new ArrayList<String> ();
     }
 }
